@@ -1,0 +1,18 @@
+[project]
+name = "clawaudit"
+version = "0.1.0"
+description = "Local-first autonomy auditor for OpenClaw workspaces"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit>=1.35",
+  "plotly>=5.22",
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+]
+
+[project.scripts]
+clawaudit = "clawaudit.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
