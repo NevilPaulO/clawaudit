@@ -40,13 +40,13 @@ ClawAudit gives a readable first-pass answer without executing anything.
 ## Project location
 
 ```bash
-~/projects/python_projects/clawaudit
+~/[projects]/clawaudit
 ```
 
 ## Setup
 
 ```bash
-cd ~/projects/python_projects/clawaudit
+cd ~/[projects]/clawaudit
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e .
